@@ -79,7 +79,7 @@ const Contact: React.FC = () => {
                       name="name"
                       value={formData.name}
                       onChange={handleChange}
-                      placeholder="John Doe"
+                      placeholder="Mercy Akintola"
                       required
                       className="w-full"
                     />
@@ -94,7 +94,7 @@ const Contact: React.FC = () => {
                       type="email"
                       value={formData.email}
                       onChange={handleChange}
-                      placeholder="john@example.com"
+                      placeholder="mercy@merczcord.com"
                       required
                       className="w-full"
                     />
@@ -164,6 +164,7 @@ const Contact: React.FC = () => {
                   <div>
                     <h4 className="text-lg font-medium text-mercz-text">Address</h4>
                     <p className="text-mercz-text-light">
+                      
                       123 Geospatial Avenue, Tech District<br />
                       San Francisco, CA 94105, USA
                     </p>
@@ -177,8 +178,8 @@ const Contact: React.FC = () => {
                   <div>
                     <h4 className="text-lg font-medium text-mercz-text">Phone</h4>
                     <p className="text-mercz-text-light">
-                      +1 (555) 123-4567<br />
-                      +1 (555) 987-6543
+                      +234 (806)396-3056<br />
+                      +234 (908)517-3296
                     </p>
                   </div>
                 </div>
