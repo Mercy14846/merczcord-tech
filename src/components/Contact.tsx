@@ -164,9 +164,8 @@ const Contact: React.FC = () => {
                   <div>
                     <h4 className="text-lg font-medium text-mercz-text">Address</h4>
                     <p className="text-mercz-text-light">
-                      
-                      123 Geospatial Avenue, Tech District<br />
-                      San Francisco, CA 94105, USA
+                      16, Olaiya Street, Ire-Akari Estate<br />
+                      Sango-ota, Ogun State, Nigeria
                     </p>
                   </div>
                 </div>
