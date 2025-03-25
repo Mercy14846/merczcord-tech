@@ -1,10 +1,55 @@
-# Welcome to your Lovable project
 
-## Project info
+# Merczcord Technologies Website
+
+## Project Overview
+
+This is the official website for Merczcord Technologies, a dynamic firm specializing in providing cutting-edge geospatial solutions. The website showcases the company's services, mission, and contact information in a modern, responsive design.
 
 **URL**: https://lovable.dev/projects/dd387865-876f-495a-870d-3ca0c8f8fe48
 
-## How can I edit this code?
+## Features
+
+- **Modern UI/UX**: Clean, minimalist design with smooth animations and transitions
+- **Responsive Layout**: Fully responsive across all device sizes (mobile, tablet, desktop)
+- **Service Showcase**: Detailed information about our geospatial solutions and services
+- **Contact Form**: Easy-to-use contact form for inquiries and collaboration opportunities
+- **Performance Optimized**: Fast loading times and optimized assets
+
+## Technology Stack
+
+This project is built with:
+
+- **Vite**: Next-generation frontend tooling
+- **TypeScript**: Strongly typed JavaScript for better developer experience
+- **React**: Component-based UI library
+- **shadcn-ui**: High-quality UI components that are accessible and customizable
+- **Tailwind CSS**: Utility-first CSS framework for rapid UI development
+- **Lucide Icons**: Beautiful, customizable icons
+
+## Services Offered
+
+Merczcord Technologies provides specialized services in:
+
+- Urban Planning
+- Road Transportation Planning
+- Disaster and Flooding Management
+- Navigation Systems
+- Environmental Impact Assessments
+- Mapping Services
+
+## Target Audience
+
+- Government agencies
+- Urban planners
+- Environmental consultants
+- Transportation authorities
+- Disaster management organizations
+- Real estate developers
+- Educational institutions
+- Non-profit organizations
+- Community groups focused on sustainable development
+
+## How to Edit This Project
 
 There are several ways of editing your application.
 
@@ -50,20 +95,22 @@ npm run dev
 - Click on "New codespace" to launch a new Codespace environment.
 - Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
+## Future Development Plans
 
-This project is built with .
+- Integration with Supabase for backend functionality
+- Authentication system for client portal
+- Dynamic project showcase with filtering options
+- Blog section for industry insights and company news
+- Interactive maps demonstrating our capabilities
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
+## Deployment
 
 Simply open [Lovable](https://lovable.dev/projects/dd387865-876f-495a-870d-3ca0c8f8fe48) and click on Share -> Publish.
 
-## I want to use a custom domain - is that possible?
+## Custom Domain Setup
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+We don't support custom domains directly through Lovable (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+
+## Contact
+
+For more information about Merczcord Technologies and our services, please contact us through the form on our website or via email at info@merczcord.com.
