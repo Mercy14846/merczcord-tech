@@ -40,11 +40,12 @@ const Navbar: React.FC = () => {
       )}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
-        <a
-          href="#home"
-          className="text-mercz-text font-display text-2xl font-semibold tracking-tight"
-        >
-          Merczcord<span className="text-mercz-blue">.</span>
+        <a href="#home" className="flex items-center">
+          <img 
+            src="/lovable-uploads/bd3b8bed-a00c-4be0-9bd3-774878ba2c46.png" 
+            alt="Merczcord Logo" 
+            className="h-10 md:h-12"
+          />
         </a>
 
         {/* Desktop Navigation */}
@@ -53,14 +54,14 @@ const Navbar: React.FC = () => {
             <a
               key={link.name}
               href={link.href}
-              className="text-mercz-text-light hover:text-mercz-blue transition-colors duration-200 text-sm font-medium"
+              className="text-mercz-text-light hover:text-mercz-teal transition-colors duration-200 text-sm font-medium"
             >
               {link.name}
             </a>
           ))}
           <a
             href="#contact"
-            className="bg-mercz-blue text-white py-2 px-4 rounded-md hover:bg-mercz-blue-dark transition-colors duration-200 text-sm font-medium"
+            className="bg-mercz-teal text-white py-2 px-4 rounded-md hover:bg-mercz-teal-light transition-colors duration-200 text-sm font-medium"
           >
             Get in Touch
           </a>
@@ -89,7 +90,7 @@ const Navbar: React.FC = () => {
               <a
                 key={link.name}
                 href={link.href}
-                className="py-3 text-mercz-text-light hover:text-mercz-blue transition-colors duration-200 text-sm font-medium border-b border-gray-100 last:border-none"
+                className="py-3 text-mercz-text-light hover:text-mercz-teal transition-colors duration-200 text-sm font-medium border-b border-gray-100 last:border-none"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {link.name}
@@ -97,7 +98,7 @@ const Navbar: React.FC = () => {
             ))}
             <a
               href="#contact"
-              className="mt-3 bg-mercz-blue text-center text-white py-2 px-4 rounded-md hover:bg-mercz-blue-dark transition-colors duration-200 text-sm font-medium"
+              className="mt-3 bg-mercz-teal text-center text-white py-2 px-4 rounded-md hover:bg-mercz-teal-light transition-colors duration-200 text-sm font-medium"
               onClick={() => setIsMenuOpen(false)}
             >
               Get in Touch

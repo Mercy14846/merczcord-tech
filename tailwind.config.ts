@@ -67,11 +67,13 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Merczcord custom colors
+				// Updated Merczcord custom colors to match the logo
 				mercz: {
-					'blue': '#3B82F6',
-					'blue-light': '#60A5FA',
-					'blue-dark': '#2563EB',
+					'teal': '#0D3B45', // Dark teal from logo
+					'orange': '#FFAA00', // Orange/yellow from logo
+					'orange-light': '#FFBB33',
+					'teal-light': '#1A5A69',
+					'teal-dark': '#072A33',
 					'neutral': '#F3F4F6',
 					'neutral-dark': '#9CA3AF',
 					'text': '#1F2937',

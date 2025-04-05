@@ -14,6 +14,7 @@ This is the official website for Merczcord Technologies, a dynamic firm speciali
 - **Service Showcase**: Detailed information about our geospatial solutions and services
 - **Contact Form**: Easy-to-use contact form for inquiries and collaboration opportunities
 - **Performance Optimized**: Fast loading times and optimized assets
+- **Brand Integration**: Consistent use of Merczcord brand colors (teal and orange) and logo throughout the site
 
 ## Technology Stack
 
@@ -25,6 +26,16 @@ This project is built with:
 - **shadcn-ui**: High-quality UI components that are accessible and customizable
 - **Tailwind CSS**: Utility-first CSS framework for rapid UI development
 - **Lucide Icons**: Beautiful, customizable icons
+
+## Brand Identity
+
+Merczcord Technologies' brand is represented by:
+
+- **Logo**: A distinctive mark featuring a location pin in orange/yellow against a dark teal circular background
+- **Colors**: 
+  - Primary: Dark Teal (#0D3B45) - Representing trust, professionalism, and stability
+  - Secondary: Orange/Yellow (#FFAA00) - Representing innovation, energy, and optimism
+- **Typography**: Clean, modern sans-serif fonts that emphasize readability and professionalism
 
 ## Services Offered
 

@@ -46,7 +46,8 @@ const Hero: React.FC = () => {
 
           if (distance < connectionDistance) {
             ctx.beginPath();
-            ctx.strokeStyle = `rgba(59, 130, 246, ${
+            // Updated to teal color
+            ctx.strokeStyle = `rgba(13, 59, 69, ${
               (1 - distance / connectionDistance) * 0.2
             })`;
             ctx.lineWidth = (1 - distance / connectionDistance) * 1;
@@ -59,9 +60,9 @@ const Hero: React.FC = () => {
 
       // Draw and update points
       points.forEach((point) => {
-        // Draw the point
+        // Draw the point with updated color
         ctx.beginPath();
-        ctx.fillStyle = "rgba(59, 130, 246, 0.6)";
+        ctx.fillStyle = "rgba(13, 59, 69, 0.6)"; // Updated to teal color
         ctx.arc(point.x, point.y, point.size, 0, Math.PI * 2);
         ctx.fill();
 
@@ -113,7 +114,7 @@ const Hero: React.FC = () => {
         <div className="max-w-3xl">
           <FadeIn duration="normal" delay={300}>
             <div className="inline-flex items-center rounded-full px-3 py-1 mb-6 bg-white/80 backdrop-blur-sm border border-gray-100 shadow-sm">
-              <span className="w-2 h-2 rounded-full bg-mercz-accent animate-pulse-slow mr-2"></span>
+              <span className="w-2 h-2 rounded-full bg-mercz-orange animate-pulse-slow mr-2"></span>
               <span className="text-mercz-text-light text-sm font-medium">
                 Transforming Geospatial Planning
               </span>
@@ -123,7 +124,7 @@ const Hero: React.FC = () => {
           <FadeIn duration="normal" delay={500}>
             <h1 className="text-4xl md:text-6xl font-display font-bold text-mercz-text leading-tight mb-6">
               Advanced Geospatial Solutions for{" "}
-              <span className="text-mercz-blue">Sustainable Development</span>
+              <span className="text-mercz-teal">Sustainable Development</span>
             </h1>
           </FadeIn>
 
@@ -138,14 +139,14 @@ const Hero: React.FC = () => {
             <div className="flex flex-col sm:flex-row gap-4 mb-16">
               <a
                 href="#services"
-                className="bg-mercz-blue text-white py-3 px-6 rounded-md hover:bg-mercz-blue-dark transition-all duration-300 text-center flex-shrink-0 flex items-center justify-center gap-2 shadow-md hover:shadow-lg"
+                className="bg-mercz-teal text-white py-3 px-6 rounded-md hover:bg-mercz-teal-light transition-all duration-300 text-center flex-shrink-0 flex items-center justify-center gap-2 shadow-md hover:shadow-lg"
               >
                 <span>Explore Our Services</span>
                 <Globe2 size={18} />
               </a>
               <a
                 href="#contact"
-                className="bg-white text-mercz-text py-3 px-6 rounded-md border border-gray-200 hover:bg-gray-50 transition-all duration-300 text-center flex items-center justify-center gap-2 shadow-sm hover:shadow-md"
+                className="bg-mercz-orange text-white py-3 px-6 rounded-md border border-mercz-orange hover:bg-mercz-orange-light transition-all duration-300 text-center flex items-center justify-center gap-2 shadow-sm hover:shadow-md"
               >
                 <span>Contact Us</span>
                 <MapPin size={18} />
@@ -157,7 +158,7 @@ const Hero: React.FC = () => {
         {/* Scroll Indicator */}
         <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 flex flex-col items-center">
           <span className="text-mercz-text-light text-sm mb-2 opacity-80">Scroll to explore</span>
-          <ArrowDown className="text-mercz-blue animate-bounce" size={20} />
+          <ArrowDown className="text-mercz-teal animate-bounce" size={20} />
         </div>
       </div>
     </section>

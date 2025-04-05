@@ -5,7 +5,7 @@ import { CheckCircle2 } from "lucide-react";
 
 const Mission: React.FC = () => {
   return (
-    <section id="about" className="section-padding relative overflow-hidden clipped-container bg-gradient-to-r from-mercz-blue/10 to-mercz-blue/5">
+    <section id="about" className="section-padding relative overflow-hidden clipped-container bg-gradient-to-r from-mercz-teal/10 to-mercz-teal/5">
       <div className="container mx-auto px-6 lg:px-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <FadeIn direction="left">
@@ -19,19 +19,19 @@ const Mission: React.FC = () => {
               
               <div className="space-y-4">
                 <div className="flex items-start">
-                  <CheckCircle2 className="text-mercz-blue mt-1 mr-3 flex-shrink-0" size={20} />
+                  <CheckCircle2 className="text-mercz-orange mt-1 mr-3 flex-shrink-0" size={20} />
                   <p className="text-mercz-text">
                     <span className="font-medium">Innovation</span> - Pioneering advanced geospatial technologies and methodologies
                   </p>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle2 className="text-mercz-blue mt-1 mr-3 flex-shrink-0" size={20} />
+                  <CheckCircle2 className="text-mercz-orange mt-1 mr-3 flex-shrink-0" size={20} />
                   <p className="text-mercz-text">
                     <span className="font-medium">Reliability</span> - Delivering accurate, actionable insights you can depend on
                   </p>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle2 className="text-mercz-blue mt-1 mr-3 flex-shrink-0" size={20} />
+                  <CheckCircle2 className="text-mercz-orange mt-1 mr-3 flex-shrink-0" size={20} />
                   <p className="text-mercz-text">
                     <span className="font-medium">Sustainability</span> - Prioritizing environmentally conscious solutions
                   </p>
@@ -42,8 +42,8 @@ const Mission: React.FC = () => {
 
           <FadeIn direction="right" delay={300}>
             <div className="relative">
-              <div className="absolute -top-12 -left-12 w-48 h-48 bg-mercz-blue/20 rounded-full blur-3xl"></div>
-              <div className="absolute -bottom-12 -right-12 w-64 h-64 bg-mercz-blue/10 rounded-full blur-3xl"></div>
+              <div className="absolute -top-12 -left-12 w-48 h-48 bg-mercz-teal/20 rounded-full blur-3xl"></div>
+              <div className="absolute -bottom-12 -right-12 w-64 h-64 bg-mercz-orange/10 rounded-full blur-3xl"></div>
               
               <div className="relative bg-white/60 backdrop-blur-md rounded-lg border border-white/20 shadow-elevation p-8 md:p-10">
                 <div className="space-y-6">
