@@ -51,7 +51,7 @@ const Mission: React.FC = () => {
                 <div className="mb-6">
                   <AspectRatio ratio={16/9} className="overflow-hidden rounded-lg shadow-lg">
                     <img 
-                      src="https://plus.unsplash.com/premium_photo-1681487916915-9ec2019775d4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                      src="https://images.unsplash.com/photo-1609866138210-84bb689f0c61?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
                       alt="Geospatial map showing feature data and location information" 
                       className="w-full h-full object-cover"
                     />
