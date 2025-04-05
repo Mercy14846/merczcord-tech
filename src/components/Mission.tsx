@@ -2,6 +2,7 @@
 import React from "react";
 import FadeIn from "./animations/FadeIn";
 import { CheckCircle2 } from "lucide-react";
+import { AspectRatio } from "./ui/aspect-ratio";
 
 const Mission: React.FC = () => {
   return (
@@ -46,6 +47,17 @@ const Mission: React.FC = () => {
               <div className="absolute -bottom-12 -right-12 w-64 h-64 bg-mercz-orange/10 rounded-full blur-3xl"></div>
               
               <div className="relative bg-white/60 backdrop-blur-md rounded-lg border border-white/20 shadow-elevation p-8 md:p-10">
+                {/* Geospatial Image with AspectRatio */}
+                <div className="mb-6">
+                  <AspectRatio ratio={16/9} className="overflow-hidden rounded-lg shadow-lg">
+                    <img 
+                      src="https://images.unsplash.com/photo-1504893524553-b855bce32c67?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                      alt="Aerial view of landscape with river and mountains" 
+                      className="w-full h-full object-cover"
+                    />
+                  </AspectRatio>
+                </div>
+                
                 <div className="space-y-6">
                   <div>
                     <h3 className="text-xl font-display font-semibold text-mercz-text mb-2">
