@@ -47,12 +47,12 @@ const Mission: React.FC = () => {
               <div className="absolute -bottom-12 -right-12 w-64 h-64 bg-mercz-orange/10 rounded-full blur-3xl"></div>
               
               <div className="relative bg-white/60 backdrop-blur-md rounded-lg border border-white/20 shadow-elevation p-8 md:p-10">
-                {/* African Geospatial/GIS Image with AspectRatio */}
+                {/* Geospatial Feature Data Image with AspectRatio */}
                 <div className="mb-6">
                   <AspectRatio ratio={16/9} className="overflow-hidden rounded-lg shadow-lg">
                     <img 
-                      src="https://images.unsplash.com/photo-1469041797191-50ace28483c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
-                      alt="African landscape satellite imagery showing terrain patterns" 
+                      src="https://plus.unsplash.com/premium_photo-1681487916915-9ec2019775d4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                      alt="Geospatial map showing feature data and location information" 
                       className="w-full h-full object-cover"
                     />
                   </AspectRatio>
