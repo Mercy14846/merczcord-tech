@@ -1,0 +1,20 @@
+{
+  "short_name": "Merczcord",
+  "name": "Merczcord Technologies",
+  "icons": [
+    {
+      "src": "/assets/merczcord-logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/merczcord-logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0D3B45",
+  "background_color": "#ffffff"
+} 
