@@ -1,11 +1,8 @@
-
 # Merczcord Technologies Website
 
 ## Project Overview
 
 This is the official website for Merczcord Technologies, a dynamic firm specializing in providing cutting-edge geospatial solutions. The website showcases the company's services, mission, and contact information in a modern, responsive design.
-
-**URL**: https://lovable.dev/projects/dd387865-876f-495a-870d-3ca0c8f8fe48
 
 ## Features
 
@@ -64,15 +61,9 @@ Merczcord Technologies provides specialized services in:
 
 There are several ways of editing your application.
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/dd387865-876f-495a-870d-3ca0c8f8fe48) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
 **Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+If you want to work locally using your own IDE, you can clone this repo and push changes.
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -116,11 +107,35 @@ npm run dev
 
 ## Deployment
 
-Simply open [Lovable](https://lovable.dev/projects/dd387865-876f-495a-870d-3ca0c8f8fe48) and click on Share -> Publish.
+This project is configured for easy deployment on [Render](https://render.com), a modern cloud platform.
+
+### Deployment Steps
+
+1. Push your code to a Git repository (GitHub, GitLab, etc.)
+2. Sign up for a free Render account at https://render.com
+3. Create a new "Static Site" service in your Render dashboard
+4. Connect your Git repository
+5. The deployment configuration is already set up in the `render.yaml` file
+6. Render will automatically build and deploy your site
+7. Once deployed, your site will be accessible at a URL provided by Render
+
+### Manual Configuration (if needed)
+
+If you prefer to configure deployment manually in the Render dashboard:
+
+- **Build Command**: `npm install && npm run build`
+- **Publish Directory**: `dist`
+- **Environment Variables**: 
+  - `NODE_VERSION`: 18.18.0
 
 ## Custom Domain Setup
 
-We don't support custom domains directly through Lovable (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+To set up a custom domain with your Render deployment:
+
+1. Go to your Render dashboard and select your website service
+2. Navigate to the "Settings" tab
+3. Scroll down to the "Custom Domain" section
+4. Add your domain name and follow the DNS configuration instructions provided
 
 ## Contact
 
