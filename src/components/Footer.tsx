@@ -1,4 +1,3 @@
-
 import React from "react";
 import { cn } from "@/lib/utils";
 import { ArrowUp } from "lucide-react";
@@ -47,7 +46,7 @@ const Footer: React.FC = () => {
           <div className="md:col-span-2">
             <a href="#home" className="inline-block mb-4">
               <img 
-                src="/lovable-uploads/bd3b8bed-a00c-4be0-9bd3-774878ba2c46.png" 
+                src="/assets/merczcord-logo.png" 
                 alt="Merczcord Logo" 
                 className="h-12"
               />

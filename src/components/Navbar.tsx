@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from "react";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { Menu, X } from "lucide-react";
@@ -41,7 +40,11 @@ const Navbar: React.FC = () => {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <a href="#home" className="flex items-center">
-                    <img             src="/assets/merczcord-logo.png"             alt="Merczcord Logo"             className="h-10 md:h-12"          />
+          <img 
+            src="/assets/merczcord-logo.png" 
+            alt="Merczcord Logo" 
+            className="h-10 md:h-12"
+          />
         </a>
 
         {/* Desktop Navigation */}
