@@ -7,7 +7,15 @@ import { useTheme } from '@/contexts/ThemeContext';
 const MAPBOX_TOKEN = 'YOUR_MAPBOX_TOKEN';
 mapboxgl.accessToken = MAPBOX_TOKEN;
 
-const DEMO_PROJECTS = [
+interface Project {
+  id: number;
+  name: string;
+  location: [number, number]; // Typed as tuple for LngLatLike
+  description: string;
+  type: 'urban' | 'disaster' | 'transport' | 'environment';
+}
+
+const DEMO_PROJECTS: Project[] = [
   {
     id: 1,
     name: 'Urban Planning Project',
@@ -45,7 +53,7 @@ interface InteractiveMapProps {
 const InteractiveMap: React.FC<InteractiveMapProps> = ({ height = '500px' }) => {
   const mapContainer = useRef<HTMLDivElement | null>(null);
   const map = useRef<mapboxgl.Map | null>(null);
-  const [activeProject, setActiveProject] = useState<typeof DEMO_PROJECTS[0] | null>(null);
+  const [activeProject, setActiveProject] = useState<Project | null>(null);
   const { isDarkMode } = useTheme();
   
   // Filter state for project types
