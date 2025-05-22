@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -67,7 +66,7 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Updated Merczcord custom colors to match the logo
+				// Updated Merczcord custom colors to match the logo with dark mode support
 				mercz: {
 					'teal': '#0D3B45', // Dark teal from logo
 					'orange': '#FFAA00', // Orange/yellow from logo
