@@ -41,11 +41,7 @@ const Navbar: React.FC = () => {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <a href="#home" className="flex items-center">
-          <img 
-            src="/lovable-uploads/bd3b8bed-a00c-4be0-9bd3-774878ba2c46.png" 
-            alt="Merczcord Logo" 
-            className="h-10 md:h-12"
-          />
+                    <img             src="/assets/merczcord-logo.png"             alt="Merczcord Logo"             className="h-10 md:h-12"          />
         </a>
 
         {/* Desktop Navigation */}
