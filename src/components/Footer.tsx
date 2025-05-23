@@ -15,10 +15,10 @@ const Footer: React.FC = () => {
 
   const footerLinks = [
     {
-      title: t('common.about'),
+      title: t('about'),
       links: [
-        { name: t('common.about'), href: "#about" },
-        { name: t('common.services'), href: "#services" },
+        { name: t('about'), href: "#about" },
+        { name: t('services'), href: "#services" },
         { name: "Team", href: "#" },
         { name: "Careers", href: "#" },
       ],
@@ -55,7 +55,7 @@ const Footer: React.FC = () => {
               />
             </a>
             <p className="text-mercz-text-light dark:text-gray-300 mb-6 max-w-md">
-              {t('about.description')}
+              {t('description')}
             </p>
             <div className="flex space-x-4">
               <a href="#" className="p-2 text-mercz-text-light hover:text-mercz-teal transition-colors dark:text-gray-300">
@@ -111,11 +111,11 @@ const Footer: React.FC = () => {
             <div className="flex">
               <input
                 type="email"
-                placeholder={t('common.yourEmail')}
+                placeholder={t('yourEmail')}
                 className="py-2 px-3 rounded-l-md bg-mercz-neutral dark:bg-gray-800 border border-r-0 border-gray-200 dark:border-gray-700 focus:outline-none focus:ring-1 focus:ring-mercz-teal text-sm flex-grow text-mercz-text dark:text-white"
               />
               <button className="bg-mercz-teal text-white py-2 px-3 rounded-r-md text-sm hover:bg-mercz-teal-light transition-colors">
-                {t('common.subscribe')}
+                {t('subscribe')}
               </button>
             </div>
           </div>
@@ -125,13 +125,13 @@ const Footer: React.FC = () => {
 
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-mercz-text-light dark:text-gray-300 text-sm">
-            {t('common.copyright', { year: new Date().getFullYear() })}
+            {t('copyright', { year: new Date().getFullYear() })}
           </p>
           <button
             onClick={scrollToTop}
             className="mt-4 md:mt-0 flex items-center text-mercz-text-light dark:text-gray-300 hover:text-mercz-teal transition-colors"
           >
-            <span className="mr-2 text-sm">{t('common.backToTop')}</span>
+            <span className="mr-2 text-sm">{t('backToTop')}</span>
             <ArrowUp size={14} />
           </button>
         </div>
