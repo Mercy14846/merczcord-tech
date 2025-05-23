@@ -19,17 +19,17 @@ const Footer: React.FC = () => {
       links: [
         { name: t('About Us'), href: "#about" },
         { name: t('Services'), href: "#services" },
-        { name: "Team", href: "#" },
-        { name: "Careers", href: "#" },
+        { name: "Team", href: "#home" },
+        { name: "Careers", href: "#home" },
       ],
     },
     {
       title: "Resources",
       links: [
-        { name: "Blog", href: "#" },
-        { name: "Case Studies", href: "#" },
-        { name: "Documentation", href: "#" },
-        { name: "FAQ", href: "#" },
+        { name: "Blog", href: "#home" },
+        { name: "Case Studies", href: "#home" },
+        { name: "Documentation", href: "#home" },
+        { name: "FAQ", href: "#home" },
       ],
     },
     {
