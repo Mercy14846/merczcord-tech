@@ -4,7 +4,7 @@ import { useTheme } from '@/contexts/ThemeContext';
 
 // You would need to get a Mapbox access token
 // For the demo, we'll use a placeholder
-const MAPBOX_TOKEN = 'YOUR_MAPBOX_TOKEN';
+const MAPBOX_TOKEN = 'pk.eyJ1IjoibWVyY3kxNDg0NiIsImEiOiJjbWIwdnh1MjkwcGJ4MmlzN3o4dGM1NGZ6In0.El5ZB6IshLy2RrA_LIZcMQ';
 mapboxgl.accessToken = MAPBOX_TOKEN;
 
 interface Project {
@@ -19,29 +19,29 @@ const DEMO_PROJECTS: Project[] = [
   {
     id: 1,
     name: 'Urban Planning Project',
-    location: [-73.9857, 40.7484], // New York
-    description: 'Comprehensive urban planning project in New York City using advanced geospatial analytics.',
+    location: [3.3922586, 6.4562820], // Lagos, Nigeria
+    description: 'Comprehensive urban planning project in Lagos City using advanced geospatial analytics.',
     type: 'urban'
   },
   {
     id: 2,
     name: 'Flood Monitoring System',
-    location: [-95.3698, 29.7604], // Houston
-    description: 'Real-time flood monitoring and prediction system for the greater Houston area.',
+    location: [6.7506282, 7.7368139], // Lokoja
+    description: 'Real-time flood monitoring and prediction system for the greater Niger River area.',
     type: 'disaster'
   },
   {
     id: 3,
     name: 'Transportation Optimization',
-    location: [-87.6298, 41.8781], // Chicago
-    description: 'Traffic flow optimization and public transit planning for Chicago metropolitan area.',
+    location: [5.1870053, 7.2563873], // Akure
+    description: 'Traffic flow optimization and public transit planning for Akure metropolitan area.',
     type: 'transport'
   },
   {
     id: 4,
     name: 'Environmental Assessment',
-    location: [-118.2437, 34.0522], // LA
-    description: 'Environmental impact assessment for sustainable development in Los Angeles.',
+    location: [7.5005910, 9.0725019], // Abuja
+    description: 'Environmental impact assessment for sustainable development in Abuja.',
     type: 'environment'
   }
 ];
@@ -75,8 +75,8 @@ const InteractiveMap: React.FC<InteractiveMapProps> = ({ height = '500px' }) => 
       style: isDarkMode 
         ? 'mapbox://styles/mapbox/dark-v11'
         : 'mapbox://styles/mapbox/light-v11',
-      center: [-95.7129, 37.0902], // Center of US
-      zoom: 3
+      center: [8.4403573, 10.5518104], // Center of Africa
+      zoom: 2
     });
 
     // Add navigation controls
@@ -104,7 +104,7 @@ const InteractiveMap: React.FC<InteractiveMapProps> = ({ height = '500px' }) => 
         setActiveProject(project);
         map.current?.flyTo({
           center: project.location,
-          zoom: 10,
+          zoom: 13,
           speed: 1.2
         });
       });
