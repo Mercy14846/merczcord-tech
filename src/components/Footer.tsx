@@ -111,7 +111,7 @@ const Footer: React.FC = () => {
             <div className="flex">
               <input
                 type="email"
-                placeholder={t('yourEmail')}
+                placeholder={t('your Email')}
                 className="py-2 px-3 rounded-l-md bg-mercz-neutral dark:bg-gray-800 border border-r-0 border-gray-200 dark:border-gray-700 focus:outline-none focus:ring-1 focus:ring-mercz-teal text-sm flex-grow text-mercz-text dark:text-white"
               />
               <button className="bg-mercz-teal text-white py-2 px-3 rounded-r-md text-sm hover:bg-mercz-teal-light transition-colors">
