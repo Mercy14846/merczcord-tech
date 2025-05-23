@@ -23,10 +23,10 @@ const Navbar: React.FC = () => {
   }, []);
 
   const navLinks = [
-    { name: t('common.home'), href: "#home" },
-    { name: t('common.services'), href: "#services" },
-    { name: t('common.about'), href: "#about" },
-    { name: t('common.contact'), href: "#contact" },
+    { name: t('home'), href: "#home" },
+    { name: t('services'), href: "#services" },
+    { name: t('about'), href: "#about" },
+    { name: t('contact'), href: "#contact" },
   ];
 
   const toggleMenu = () => {
@@ -66,7 +66,7 @@ const Navbar: React.FC = () => {
             href="#contact"
             className="bg-mercz-teal text-white py-2 px-4 rounded-md hover:bg-mercz-teal-light transition-colors duration-200 text-sm font-medium"
           >
-            {t('common.getInTouch')}
+            {t('getInTouch')}
           </a>
           
           {/* Theme toggle and language switcher */}
@@ -113,7 +113,7 @@ const Navbar: React.FC = () => {
               className="mt-3 bg-mercz-teal text-center text-white py-2 px-4 rounded-md hover:bg-mercz-teal-light transition-colors duration-200 text-sm font-medium"
               onClick={() => setIsMenuOpen(false)}
             >
-              {t('common.getInTouch')}
+              {t('getInTouch')}
             </a>
             <div className="mt-6 flex justify-center">
               <LanguageSwitcher />
